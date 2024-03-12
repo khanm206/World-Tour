@@ -1,0 +1,25 @@
+.countries{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+.visitedCountry{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 8px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.flag{
+    width: 40px;
+    box-shadow: gray 2px 2px;
+}
+.list{
+    /* padding: 10px; */
+    display: none;
+   
+}
